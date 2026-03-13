@@ -46,7 +46,7 @@ export default function Landing() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/dashboard"
+              to="/get-started"
               className="inline-flex items-center justify-center gap-2 bg-emerald-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-600/25 no-underline"
             >
               Start Donating <ArrowRight className="w-5 h-5" />
@@ -329,7 +329,7 @@ function WinningsPage({ user, payout }) {
             Set up takes less than 2 minutes.
           </p>
           <Link
-            to="/dashboard"
+            to="/get-started"
             className="inline-flex items-center gap-2 bg-white text-emerald-700 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-emerald-50 transition-colors shadow-lg no-underline"
           >
             Get Started Free <ArrowRight className="w-5 h-5" />
